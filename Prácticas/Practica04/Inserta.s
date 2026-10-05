@@ -3,7 +3,6 @@
 	.globl Insertar
 	.type Insertar,@function
 Insertar:
-	Insertar:
     pushl %ebp
     movl  %esp, %ebp
     subl  $12, %esp         # i=-4, j=-8, lug=-12
