@@ -5,7 +5,7 @@
 Insertar:
     pushl %ebp
     movl  %esp, %ebp
-    subl  $12, %esp         # i=-4, j=-8, lug=-12
+    subl  $12, %esp         # reservar espacio en la pila para i, j y lug
 
     movl  $0, -4(%ebp)       # i <- 0
     movl  $-1, -12(%ebp)         # lug <- -1
